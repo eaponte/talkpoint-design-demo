@@ -1,0 +1,214 @@
+/* TalkPoint Design Demo - by Ed Aponte | eAponte.com */
+
+@font-face {
+	font-family: "Myriad Set Pro";
+	src: url("../fonts/myriad-set-pro_thin.ttf");
+}
+
+* {
+	font-family: "Myriad Set Pro","Helvetica","Arial",sans-serif;
+}
+
+html, body, div, section {
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	color: #FFF;
+	font-size: 3em;
+	font-weight: 200;
+	line-height: 85px;
+	text-align: center;
+	margin: 0;
+}
+
+.clr-fix {
+	clear: both;
+}
+
+.content {
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+}
+
+.banner-bar {
+	min-height: 80px;
+	background-color: #000;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.logo {
+	width: 80px;
+}
+
+.title-bar {
+	min-height: 85px;
+	background-color: #F24340;
+	padding: 20px 0;
+}
+
+.date-bar {
+	min-height: 41px;
+	background-color: #333;
+	padding: 20px 0 15px 0;
+}
+
+.date-bar h2 {
+	color: #FFF;
+	font-size: 2em;
+	font-weight: 200;
+	line-height: 41px;
+	letter-spacing: .05em;
+	text-align: center;
+	margin: 0;
+}
+
+.main-content-bar {
+	background-color: #000;
+	color: #FFF;
+	font-size: 1.2em;
+	padding: 20px;
+}
+
+#apple-hero {
+	display: block;
+	float: left;
+	width: 50%;
+	max-width: 400px;
+}
+
+.main-content-bar .content-text {
+	width: 50%;
+	float: left;
+}
+
+.main-content-bar .content-text h3 {
+	font-size: 1.7em;
+	font-weight: 100;
+	letter-spacing: .05em;
+}
+
+.speaker {
+	min-height: 350px;
+	background: #000 url("../images/tim-cook-large.jpg") no-repeat;
+	background-size: cover;
+}
+
+.speaker p {
+	box-sizing: border-box;
+	min-height: 350px;
+	padding: 20% 0 0 20px;
+	margin: 0;
+}
+
+form {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.forms {
+	box-sizing: border-box;
+	width: 90%;
+	max-width: 900px;
+	padding: 20px;
+	margin: auto;
+	color: #000;
+	background-color: #FFF;
+	border: 1px solid #333;
+	border-radius: 3px;
+}
+
+.forms h3 {
+	font-size: .8em;
+	font-weight: bold;
+	color: #000;
+	margin: 0;
+}
+
+#login-form {
+	width: 47%;
+}
+
+#reg-form {
+	width: 47%;
+	padding-left: 20px;
+	border-left: 1px solid #CCC;
+}
+
+input {
+	display: inline-block;
+	width: 80%;
+	padding: 10px 5px;
+	margin: 15px 0;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	color: #333;
+}
+
+button {
+	font-size: 1.1em;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	background-color: #F24340;
+}
+
+button:hover {
+	background-color: #C13533;
+}
+
+footer {
+	background-color: #333;
+	border-top : 4px solid #F24340;
+	font-size: 11px;
+	color: #CCC;
+	padding: 20px;
+}
+
+.footer-links a {
+	font-size: 11px;
+	font-weight: bold;
+	color: #99A3A6;
+	text-decoration: none;
+}
+
+.footer-links a:hover {
+	color: #EEE;
+}
+
+#right-ftr-links {
+	display: inline-block;
+	float: right;
+	padding-bottom: 6px;
+	margin-top: -5px;
+}
+
+@media all and (max-width: 610px) {
+
+	.speaker {
+		background-position: -200px 0;
+	}
+
+}
+
+@media all and (max-width: 548px) {
+
+	form {
+		display: block;
+	}
+
+	#login-form, #reg-form {
+		width: 100%;
+		padding-left: 0;
+		border-left: none;
+	}
+
+	#reg-form {
+		padding-top: 20px;
+	}
+
+}
